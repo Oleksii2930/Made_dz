@@ -1,0 +1,37 @@
+body {
+    background-color: #f1eeee;
+}
+h1 {
+    text-align: center;
+    padding: 50px 0;
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card {
+    width: 250px;
+    height: 300px;
+    border: 3px solid;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.card img {
+    width: 70%;
+}
+p img {
+
+}
+
+.end {
+    text-align: center;
+    padding: 30px 0;
+}

@@ -1,0 +1,27 @@
+body {
+    background-color: #f1eeee; }
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    height: 400px;
+    background-color: bisque;
+}
+.card {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color: red;
+    transition: 1s;
+}
+.card:hover {
+    background-color: gray;
+    border-radius: 50%;
+    transition: 2s;
+}
