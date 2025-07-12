@@ -1,0 +1,45 @@
+body {
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+    margin: 0;
+    background-color: mediumspringgreen;
+
+}
+.wrapper {
+    background-color: white;
+    height: 45vh;
+    width: 50vw;
+    border-radius: 10px;
+
+}
+
+
+.header-title {
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    background-color: lightgrey;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+input[type=text],input[type=password] {
+    width: 80% ;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+}
+.button {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+margin: 70px auto;}
+input[type=submit] {
+    width: 90px;
+    border-radius: 3px;
+}
