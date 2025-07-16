@@ -10,13 +10,22 @@ body {
 
 }
 .card {
-    width: 250px;
-    height: 300px;
+    width: 300px;
+    height: 250px;
     border-radius: 10px;
+    flex-direction: column;
+    gap: 30px;
+    background-color: #c2e8c2;
+}
+h2 {
+margin-left: 40px;
+}
+
+.card>ul {
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
     flex-direction: column;
     gap: 20px;
-    background-color: #c2e8c2;
+}
+.card>ul>li {
+    list-style: none;
 }
