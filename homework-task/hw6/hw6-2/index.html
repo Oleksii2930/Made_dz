@@ -1,27 +1,112 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+    * {
+      margin: 0;
+    }
+    body {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .wrapper {
+      background-color: white;
+      height: 50vh;
+      width: 400px;
+      border:solid #989595 2px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+    }
+    button {
+      width: 325px ;
+      height: 30px;
+      border: none;
+      background-color: #5895e1;
+      color: white;
+      border-radius: 5px;
+      margin: 20px 0 20px 0 ;
+    }
+    img {
+      width: 30px;
+    }
+    a {
+      text-decoration: none;
+      font-size: 20px;
+    }
+.fb-linc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+.luse-password {
+  margin-bottom: 30px;
+}
+
+    .header-title {
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 30px;
+      font-family: "Pacifico", sans-serif ;
+      color: #353434;
+      margin: 40px 0 40px 0;
+    }
+    input[type=text],input[type=password] {
+      width: 325px ;
+      height: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 10px 0;
+    }
+    footer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 7vh;
+      width: 400px;
+      border:solid #989595 2px;
+      margin-top: 10px;
+
+    }
+
+
+  </style>
 </head>
 <body>
 <div class="wrapper">
   <div class="header-title">
-    <h2>Вхід в особистий кабінет</h2>
+    <h2>Instagram</h2>
   </div>
   <form>
     <input type="text" name="login" placeholder="Логін або email">
     <input type="password" name="password" placeholder="Пароль">
-    <div class="button">
-      <div>
-      <label for="remember">Запам'ятати мене</label>
-      <input type="checkbox" name="remember" id="remember">
-      </div>
-      <input type="submit" name="submit" value="Вхід" >
-    </div>
   </form>
+
+  <div class="button">
+    <button>Увійти</button>
+  </div>
+  <h3>АБО</h3>
+  <div class="fb-linc">
+    <img src="https://th.bing.com/th/id/R.e790c25db5e52838040686612b1a732c?rik=uVuLX4sResGMKA&riu=http%3a%2f%2fpngimg.com%2fuploads%2ffacebook_logos%2ffacebook_logos_PNG19757.png&ehk=JL234rPBfx%2bf3tobhEVbPdNgJiWOhk251WyRwRAg940%3d&risl=&pid=ImgRaw&r=0" alt="">
+    <a href="#">Увійти через Faceboock</a>
+  </div>
+  <a class="luse-password" href="#">Забули пароль?</a>
 </div>
+<footer>
+  <p>Не маєте облікового запису?<a href="#">Зареєстуйтесь</a></p>
+</footer>
 </body>
 </html>
