@@ -1,10 +1,13 @@
 @media screen and (max-width: 779px) {
-    .items {
+    .containers {
         width: 100%;
         padding:32px 16px;
-        gap: 40px;
+        gap: 32px;
+        display: flex;
+        flex-direction: column;
     }
-    .item {
+    .container {
         width: 100%;
+
     }
 }
