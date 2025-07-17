@@ -1,0 +1,12 @@
+@media screen and (min-width: 0) and (max-width: 380px) {
+    .items {
+        width: 343px;
+        display: flex;
+        flex-direction: column;
+    }
+    div {
+        width: 343px;
+    }
+
+
+}
