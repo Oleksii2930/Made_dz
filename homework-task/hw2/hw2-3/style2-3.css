@@ -17,6 +17,11 @@ body {
     gap: 30px;
     background-color: #c2e8c2;
 }
+.card:hover {
+    transition: 0.5s;
+    width: 320px;
+    height: 265px;
+}
 h2 {
 margin-left: 40px;
 }
